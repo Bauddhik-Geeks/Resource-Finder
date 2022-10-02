@@ -3,7 +3,7 @@
 
 ### How to Contribute 
 
-1. Copy the following code
+## 1. Copy the following code
 ```html
           <div class="card">
                 <p class="name">Your name</p>
@@ -28,7 +28,7 @@
                 </div>
             </div>
 ```
-2. Find the below given code snip in index.html file
+## 2. Find the below given code snip in index.html file
 ```html
             <!-- ________*END TEMPLATE* Contributor card END ________  -->
 
@@ -39,6 +39,6 @@
             <!-- <<<<< Do not change anything below this line >>>>> -->
             <!-- -------------------------------------------------- -->
 ```
-3. Past your code in between that comment line 
-4. Change your details with your details and add resourcess + link of that resources 
-5. Make sure its works correctly
+## 3. Past your code in between that comment line 
+## 4. Change your details with your details and add resourcess + link of that resources 
+## 5. Make sure its works correctly
