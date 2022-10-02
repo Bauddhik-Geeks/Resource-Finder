@@ -39,6 +39,6 @@
             <!-- <<<<< Do not change anything below this line >>>>> -->
             <!-- -------------------------------------------------- -->
 ```
-## 3. Past your code in between that comment line 
+## 3. Paste your code in between that comment line 
 ## 4. Change your details with your details and add resourcess + link of that resources 
 ## 5. Make sure its works correctly
