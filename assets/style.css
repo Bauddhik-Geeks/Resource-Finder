@@ -34,6 +34,12 @@ body {
     font-family: roboto, arial, sans-serif;
 }
 
+.headingTitle {
+    font-size: 2.5rem;
+    padding-top: 0px;
+    margin-top: -5px;
+}
+
 header {
     margin: 10px auto 20px auto;
     text-align: left;
