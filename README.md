@@ -42,7 +42,7 @@
 ## 3. Paste your code in between the comment lines
 ## 4. Add personal details and add links to resources under the Useful Dev Resources section 
 ## 5. Make sure it works correctly
-## 6. Our `Contributors`
+### Our `Contributors`
 
 <div align="center">
 
