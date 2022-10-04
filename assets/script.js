@@ -119,4 +119,12 @@ function init() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", init);
+function onReady(callback) {
+  if (document.readyState != 'loading') callback();
+  else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+  else document.attachEvent('onreadystatechange', function () {
+    if (document.readyState == 'complete') callback();
+  });
+}
+
+onReady(init);
