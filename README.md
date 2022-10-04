@@ -42,3 +42,11 @@
 ## 3. Paste your code in between the comment lines
 ## 4. Add personal details and add links to resources under the Useful Dev Resources section 
 ## 5. Make sure it works correctly
+### Our `Contributors`
+
+<div align="center">
+
+<a href = "https://github.com/Bauddhik-Geeks/Resource-Card/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=Bauddhik-Geeks/Resource-Card"/>
+</a>
+
