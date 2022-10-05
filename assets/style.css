@@ -394,3 +394,42 @@ body.night {
         flex: 2;
     }
 }
+
+.logo img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.bauddhik-img {
+    width: 70px;
+    height: 70px;
+    display: block !important;
+    cursor: pointer;
+    border-radius: 80px;
+}
+
+.night .bauddhik-img{
+    background-color: black;
+}
+
+.logo-container{
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.logo-txt-img{
+    display: flex;
+    align-items: center;
+}
+
+.logo-txt{
+    padding: 10px;
+}
+
+.night .logo-txt{
+    color: black;
+}
