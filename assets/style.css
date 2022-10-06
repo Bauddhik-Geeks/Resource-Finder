@@ -384,6 +384,25 @@ body.night {
     color: rgba(250, 250, 250, 0.51);
     font-weight: bold;
 }
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b711bd;
+    border-radius: 10px;
+  }
+  .night::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+
 
 @media screen and (min-width: 800px) {
     .column {
