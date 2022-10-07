@@ -1,9 +1,18 @@
 # Resource-Card
 
+Knowledge is everywhere but in this modern world of so much knowledge it become difficult to gather it when you require it. Here's presenting to you all a website that will have all the useful Developer Resources which is made by you all, for all of us.
 
-### How to Contribute 
+Website: [Resource-Card](bauddhikgeeks.tech/Resource-Card/)
 
-## 1. Copy the following code
+This repository is amintained by [Bauddhik-Geeks](https://github.com/Bauddhik-Geeks) with a vision to help developers and professionals.
+
+## What you can contribute?
+You can share three useful Developer Resources with us and help us in creating a big collection of all the good developer resources.
+
+## How to Contribute?
+It is just a cake-walk to contribute here. If you know Github and Git then it is cherry on the top else we are here to guide you.
+
+1. Copy the following code
 ```html
           <div class="card">
                 <p class="name">Your name</p>
@@ -28,7 +37,7 @@
                 </div>
             </div>
 ```
-## 2. Find the below given code snip in index.html file
+ 2. Find the below given code snip in [index.html](https://github.com/Bauddhik-Geeks/Resource-Card/blob/main/index.html) file.
 ```html
             <!-- ________*END TEMPLATE* Contributor card END ________  -->
 
@@ -39,10 +48,12 @@
             <!-- <<<<< Do not change anything below this line >>>>> -->
             <!-- -------------------------------------------------- -->
 ```
-## 3. Paste your code in between the comment lines
-## 4. Add personal details and add links to resources under the Useful Dev Resources section 
-## 5. Make sure it works correctly
-### Our `Contributors`
+3. Paste your code in above the 'Do not change anything comment'
+4. Add personal details and add links to resources under the Useful Dev Resources section.
+5. Make sure it works correctly and here you are done!
+6. Commit your changes and start a pull request.
+
+## Our `Contributors`
 
 <div align="center">
 
@@ -50,3 +61,5 @@
   <img src = "https://contrib.rocks/image?repo=Bauddhik-Geeks/Resource-Card"/>
 </a>
 
+### 🎉 Thanks for contributing to the Resource-Card 🎉
+  ### Happy contributing!
