@@ -34,6 +34,10 @@ body {
     font-family: roboto, arial, sans-serif;
 }
 
+body.no-transition, body.no-transition * {
+    transition: none !important;
+}
+
 header {
     margin: 10px auto 20px auto;
     text-align: left;
