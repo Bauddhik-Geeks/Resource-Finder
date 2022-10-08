@@ -56,12 +56,19 @@ function init() {
 
   // night mode feature
   $('#toggle-box-checkbox').on('change', function () {
+    localStorage.setItem('mode', this.checked ? "light" : "dark");
     if (this.checked) {
       $('body').addClass('night')
     } else {
       $('body').removeClass('night')
     }
-  })
+  });
+
+  // set stored theme
+  let mode = localStorage.getItem('mode');
+  if (mode === "light") {
+    $('#toggle-box-checkbox').click();
+  }
 
   function demo() {
     setInterval(function () {
