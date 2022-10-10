@@ -1,1104 +1,1750 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="assets/style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" />
     <title>Resource Card</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="row">
-            <div class="column">
-                <!-- Night Mode Creation -->
-                <div class="nightmode">
-                    <div class="toggle-box">
-                        <input type="checkbox" name="checkbox1" id="toggle-box-checkbox" />
-                        <label for="toggle-box-checkbox" class="toggle-box-label-left"></label>
-                        <label for="toggle-box-checkbox" class="toggle-box-label"></label>
-                    </div>
-                </div>
-                <!-- / Night Mode Creation -->
+      <div class="row">
+        <div class="column">
+          <!-- Night Mode Creation -->
+          <div class="nightmode">
+            <div class="toggle-box">
+              <input
+                type="checkbox"
+                name="checkbox1"
+                id="toggle-box-checkbox"
+              />
+              <label
+                for="toggle-box-checkbox"
+                class="toggle-box-label-left"
+              ></label>
+              <label for="toggle-box-checkbox" class="toggle-box-label"></label>
             </div>
-        </div>
-        <div class="row">
-            <div class="column-double padding-buttom">
-                <div class="column-left">
-                    <style>
-                        h1 {
-                            text-align: center;
-                        }
-
-                        h2 {
-                            text-align: center;
-                        }
-
-                        p {
-                            text-align: center;
-                        }
-                    </style>
-                    <h1>Resource Finder</h1>
-                    <h2>Help your friends find some good learning resources</h2>
-                    <p>
-                        Share good learning resources and make this project a resource hub, where all can find the
-                        resrouces which will help learners in their journey
-                    </p>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="column-right">
-                    <style>
-                        p {
-                            text-align: center;
-                        }
-
-                        div {
-                            text-align: center;
-                        }
-                    </style>
-                    <p>Contributions so far...</p>
-                    <div class="animated" id="contributions-number">07</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="searchContainer">
-            <input id="searchbar" type="search" name="search" placeholder="Search for your card here!" />
-        </div>
-
-        <div class="grid">
-            <!-- ________ Abhay Chandel Contributor card START ________  -->
-            <div class="card">
-                <p class="name">Abhay Chandel</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/abhaychandel404" target="_blank">@abhaychandel404</a>
-                </p>
-                <p class="about">I am currently pursuing a Bachelor of Technology in Computer Science Engineering. I am currently
-                    studying JavaScript and DSA. I am gonna learn React after completing Js.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.freecodecamp.org" target="_blank"
-                                title="First Resource">FreeCodeCamp</a>
-                        </li>
-                        <li>
-                            <a href="https://www.edx.org" target="_blank"
-                                title="Second Resource">Edx Courses</a>
-                        </li>
-                        <li>
-                            <a href="https://www.theodinproject.com" target="_blank" title="Third resource">The Odin Project</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- ________Abhay Chandel Contributor card END ________  -->
-
-            <!-- ________ Gilang Kharisma Contributor card START ________  -->
-            <div class="card">
-                <p class="name">Gilang Kharisma</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://www.twitter.com/lalumuhammadgk1" target="_blank">Your handle</a>
-                </p>
-                <p class="about">I'm Gilang Kharisma, I'm still learning about mysql, and I interested with web
-                    programing, I'm from indoneisa, Nice to meet you</p>
-                <div class="resources">
-                    <p>3 Useful website to learn code with Indonesian Language</p>
-                    <ul>
-                        <li>
-                            <a href="https://codepolitan.com/" target="_blank" title="First Resource">Place to learn
-                                code with Indonesian Language</a>
-                        </li>
-                        <li>
-                            <a href="https://www.hostinger.co.id/tutorial/belajar-coding-online-gratis" target="_blank"
-                                title="Second Resource">List of place to learn code freely</a>
-                        </li>
-                        <li>
-                            <a href="https://codesaya.com/" target="_blank" title="Third resource">Place to learn code
-                                with Indonesian Language</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- ________ Gilang Kharisma Contributor card END ________  -->
-
-            <!-- ________ Dhruva Contributor card START ________  -->
-            <div class="card">
-                <p class="name">Dhruva Bhattacharya</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/DhruvaBhattach2" target="_blank">@DhruvaBhattach2</a>
-                </p>
-                <p class="about">I am Dhruva Bhattacharya, currently pursuing B.Tech in Artificial Intelligence and
-                    Machine Learning at Gyan Ganga Institute of Technology and Science Jabalpur. A full stack developer,
-                    self-led learner, team player, and a software enthusiast who loves to build products. Besides
-                    developing, I enjoy writing technical blogs. I am a full stack developer and a software enthusiast
-                    who loves to build products.</p>
-                <div class="resources">
-                    <p>3 Useful Web 3.0 Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.youtube.com/watch?v=ipwxYa-F1uY" target="_blank"
-                                title="A Full Course on Ethereum, Blockchain Development, Smart Contracts, and the EVM">Block
-                                Chain Development and Smart Contract</a>
-                        </li>
-                        <li>
-                            <a href="https://www.coursera.org/learn/smarter-contracts" target="_blank"
-                                title="Smart Contracts - Zero to Hero">Smart Contract Beginner to Advance</a>
-                        </li>
-                        <li>
-                            <a href="https://youtu.be/ci_AIMCF-HA" target="_blank"
-                                title="Roadmap to learn Blockchain Development">Roadmap for Blockchain Development</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- ________Dhruva Contributor card END ________  -->
-
-            <!-- ________ *Srijoy* Contributor card START ________  -->
-            <div class="card">
-                <p class="name">Srijoy Paul</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/SdDecent" target="_blank">@SdDecent</a>
-                </p>
-                <p class="about">I am currently pursuing a Bachelor of Science in Computer Engineering. I am currently
-                    studying DSA and web development. I am also excited about AI and what it has to offer in terms of
-                    solving problems in a modern and effective manner.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank"
-                                title="Progamming Ebooks Repo">Resource 1</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank"
-                                title="Second Resource">Resource 2</a>
-                        </li>
-                        <li>
-                            <a href="https://devdocs.io/" target="_blank" title="Third resource">Documentation for
-                                different technologies</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- ________*Srijoy* Contributor card END ________  -->
-
-            <!-- ________ Piyush's card START ________  -->
-            <div class="card">
-                <p class="name">Piyush Chandel</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/Piyush_Chandel7" target="_blank">@Piyush_Chandel7</a>
-                </p>
-                <p class="about">A Front-End Developer, currently learning git and contributing into various open-source
-                    projects</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/thedaviddias/Resources-Front-End-Beginner" target="_blank"
-                                title="First Resource">The most essential list of resources for Front-End beginners.</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/bradtraversy/design-resources-for-developers" target="_blank"
-                                title="Second Resource">Curated list of design and UI resources.</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/learning-zone/website-templates" target="_blank"
-                                title="Third resource">Website templates.</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- ________ Piyush's card END ________  -->
-            <div class="card">
-                <p class="name">Kirtan Kushwah</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://www.twitter.com/T_kirtan_" target="_blank">T_kirtan_</a>
-                </p>
-                <p class="about">I am a tech geek who is passionate about community learning and comfortable in adopting
-                    new technologies and environment. I have previously lead communities where I learned skills which
-                    included DevOps, Management, Leadership and working for Non-profit causes.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://learn.microsoft.com/en-us/training/" target="_blank"
-                                title="First Resource">Microsoft Learn Documentations</a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank" title="Second Resource">StackOverFlow -
-                                Troubleshooting</a>
-                        </li>
-                        <li>
-                            <a href="https://www.cloudskillsboost.google/" target="_blank" title="Third resource">Cloud
-                                Skills Boost - Qwiklabs</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <p class="name">Mrinank Bhowmick</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://www.twitter.com/" target="_blank">_mrinank_</a>
-                </p>
-                <p class="about">𝙸’𝚖 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚕𝚎𝚊𝚛𝚗𝚒𝚗𝚐 what I need. 𝙸’𝚖 𝚕𝚘𝚘𝚔𝚒𝚗𝚐 𝚝𝚘
-                    𝚌𝚘𝚕𝚕𝚊𝚋𝚘𝚛𝚊𝚝𝚎 𝚘𝚗 more and more Open source projects. 𝙿𝚛𝚘𝚗𝚘𝚞𝚗𝚜 :
-                    𝙷𝚎/𝙷𝚒𝚖/𝙷𝚒𝚜</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.w3schools.com/python/" target="_blank"
-                                title="Python Resource from w3schools">Resource 1</a>
-                        </li>
-                        <li>
-                            <a href="https://www.codewars.com/" target="_blank"
-                                title="Python Challenges on CodeWars">Resource 2</a>
-                        </li>
-                        <li>
-                            <a href="https://exercism.org/tracks/python" target="_blank"
-                                title="Python Challenges on exercism">Resource 3</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card">
-                <p class="name">Varun Kakathiya</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://www.twitter.com/" target="_blank">KakathiyaVarun</a>
-                </p>
-                <p class="about">I am an Open Source Enthusiast who always tries to create an impact on society.I am
-                    also passionate about new technlogies too.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.htmlandcssbook.com/" target="HTML and CSS resources" title="blank">Html
-                                and CSS</a>
-                        </li>
-                        <li>
-                            <a href="https://www.codechef.com/wiki/tutorial-number-theory/"
-                                target="Number theory for CP" title="blank">Basic number theory</a>
-                        </li>
-                        <li>
-                            <a href="https://www.freecodecamp.org/news/30-free-resources-for-learning-javascript-fundamentals/"
-                                target="blank" title="Javascript by Freecodecamp">Javascript Resources</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card">
-                <p class="name">Sajal</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://www.twitter.com/sajalkmr18" target="_blank">sajalkmr18</a>
-                </p>
-                <p class="about">Hey, I'm an undergrad IT student who loves Cyber Security. I'm currently learning Web
-                    Dev.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://missing.csail.mit.edu/" target="_blank" title="First Resource">Missing
-                                Semester by MIT</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/ossu/computer-science" target="_blank"
-                                title="Second Resource">OSSU</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/kamranahmedse/developer-roadmap" target="_blank"
-                                title="Third resource">Roadmaps</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- ________Contributor card END ________  -->
-
-            <div class="card">
-                <p class="name">Vipin Chaudhary</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/" target="_blank">itsvipindev</a>
-                </p>
-                <p class="about">Back-end Enthusiast
-
-                    • Learning in public 📘
-                    • Tweets about web development 🐦
-                    • Open source✨</p>
-                <div class="resources">
-                    <p>3 Useful Backend Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.freecodecamp.org/learn/back-end-development-and-apis/" target="_blank"
-                                title="First Resource">Freecodecamp Backend and API development course </a>
-                        </li>
-                        <li>
-                            <a href="https://www.commclassroom.org/backend-roadmap" target="_blank"
-                                title="Second Resource">Backend roadmap by commclassroom</a>
-                        </li>
-                        <li>
-                            <a href="https://codedamn.com/learning-paths/backend" target="_blank"
-                                title="Third resource">Back-end learning path by codedamn</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <p class="name">Sumit</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/SumitKanth99" target="_blank">Sumit</a>
-                </p>
-                <p class="about">I am a web developer, coder and a open source enthusiastic</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://fontawesome.com/" target="_blank" title="First Resource">Fontawesome</a>
-                        </li>
-                        <li>
-                            <a href="https://dribbble.com/" target="_blank" title="Second Resource">Dribbble</a>
-                        </li>
-                        <li>
-                            <a href="https://tinypng.com/" target="_blank" title="Third Resource">Tiny png</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <p class="name">forno</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/ashutosh-sahuu/" target="_blank">Ashutosh</a>
-                </p>
-                <p class="about">New to open source</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.edx.org/course/introduction-to-computer-science-and-programming-7"
-                                target="_blank" title="MIT 600x">Introduction to Computer Science and Programming Using
-                                Python</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/ossu/computer-science" target="_blank"
-                                title="Open Source Society University">Path to a free self-taught education in Computer
-                                Science!</a>
-                        </li>
-
-                        <li>
-                            <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank"
-                                title="Free Code Academy">freeCodeCamp.org's open-source codebase and curriculum. Learn
-                                to code for free.</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <p class="name">Sarthak Wakchaure</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/SarthakWakchau3" target="_blank">Sumit</a>
-                </p>
-                <p class="about">I am a web developer, coder and a Machine Learning enthusiastic</p>
-                <div class="resources">
-                    <p>Machine Learning Resources & Project</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.freecodecamp.org/news/how-to-learn-machine-learning-practical-tips-and-resources/"
-                                target="_blank" title="First Resource">freecodecamp</a>
-                        </li>
-                        <li>
-                            <a href="https://youtu.be/NWONeJKn6kc/" target="_blank"
-                                title="Second Resource">Youtube(freecodecamp)</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Sarthak88-tech/Breast-Cancer-Prediction-ML" target="_blank"
-                                title="Third Resource">ML Project</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Vaibhav's card-->
-            <div class="card">
-                <p class="name">Vaibhav</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/vaibhav-mishra-7006911b5/" target="_blank">Vaibhav Mishra</a>
-                </p>
-                <p class="about">Hey! I'm Vaibhav, 4th year engineering student. I like to code and develop stuff.
-                    Always looking for cool projects to collaborate on.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.youtube.com/playlist?list=PLwGdqUZWnOp3t3qT7pvAznwUDzKbhEcCc"
-                                target="_blank" title="Full MERN">Full MERN Stack learning with project</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwg2-q6Kvw3Tl_4xhxtIaNlY"
-                                target="_blank" title="Learn about chrome extension">Learn and build your own chrome
-                                extensions</a>
-                        </li>
-                        <li>
-                            <a href="https://www.geeksforgeeks.org/web-development/" target="_blank"
-                                title="Learn web Dev">Learn full web development with blogs</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-             <!-- Rahul's card-->
-                 <div class="card">
-                <p class="name">Rahul Kumar</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/rahul-kumar-072/" target="_blank">Rahul Kumar</a>
-                </p>
-                <p class="about">I am a technology enthusiast and love competitive programming. Along with I am pursuing my B.Tech with a specialization in Civil Engineering</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference" target="_blank" title="First Resource">JavaScript</a>
-                        </li>
-                        <li>
-                         <a href="https://goalkicker.com" target="_blank" title="First Resource">Programming Notes</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/kamranahmedse/design-patterns-for-humans" target="_blank" title="Third resource">Design Pattern Explained</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-
-            <!-- Aniket's card-->
-            <div class="card">
-                <p class="name">Aniket Ghosh</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/aniketghosh-64550a191/" target="_blank">aniketghosh</a>
-                </p>
-                <p class="about">Hey! I'm Aniket, 4th year CS engineering student. I am a keen-learner who likes to code
-                    and develop stuff. Also I like to share my knowledge and understanding amongst all other
-                    keen-learners and help all of us grow. Always looking for innovative projects to collaborate on.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://mbeaudru.github.io/modern-js-cheatsheet/" target="_blank" title="JS">Modern
-                                JS Cheetsheet</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/kunaltyagi9/MERN-Stack-Projects" target="_blank"
-                                title="MERN">Hands-on MERN Projects</a>
-                        </li>
-                        <li>
-                            <a href="https://colorhunt.co/" target="_blank" title="Color Palette">Hex of all Color
-                                Palette</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Sayak's card-->
-            <div class="card">
-                <p class="name">Sayak Rana</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/sayak-rana-125a48192/" target="_blank">Sayak Rana</a>
-                </p>
-                <p class="about">Currently, I am am studying in 4th Year in IIEST Shibpur within the department Computer
-                    Science and Technology.I am exploring various fields of Computer Science and Technology.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.w3schools.com/" target="_blank" title="First Resource">W3Schhols for
-                                HTML,CSS,JS</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP"
-                                target="_blank" title="Second Resource">Namaste Javascript</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
-                                target="_blank" title="Third resource">Full Stack with Code With Harry</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!--Aniket's card-->
-
-            <div class="card">
-                <p class="name">Aniket Shekhar Chaudhari</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/aniket-chaudhari-9114a322a" target="_blank">Aniket
-                        Chaudhari</a>
-                </p>
-                <p class="about">Hey! I am a second year student pursuing my B.Tech degree in Computer Science and
-                    Engineering . I like to do competitive Programming along with web-development</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.w3schools.com/" target="_blank" title="First Resource">w3Schools</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/WebDevSimplified" target="_blank"
-                                title="Second Resource">WebDevSimplified</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/Freecodecamp" target="_blank"
-                                title="Third resource">Freecodecamp</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- ________ Shivendra's card START ________  -->
-
-            <div class="card">
-                <p class="name">Shivendra Pandey</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/Shivendra_0510" target="_blank">Shivendra_0510</a>
-                </p>
-                <p class="about">Hey ! Shivendra here, a second-year undergraduate at IIT BHU. I have keen interest in
-                    Competitive Programming, Web Development and I have recently started contributing to open source
-                    projects. </p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.youtube.com/c/TraversyMedia" target="_blank"
-                                title="First Resource">TraversyMedia</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/TheNetNinja" target="_blank"
-                                title="Second Resource">TheNetNinja</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/Freecodecamp" target="_blank"
-                                title="Third resource">Freecodecamp</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-              <!-- ________ Shivendra's card END ________  -->
-
-             <!--Gourav's card-->
-
-             <div class="card">
-              <p class="name">Gourav Saini</p>
-              <p class="contact">
-                  <i class="fab fa-linkedin-in"></i>
-                  <a href="https://www.linkedin.com/in/g7i/" target="_blank">Gourav Saini</a>
-              </p>
-              <p class="about">Hey! I am Gourav Saini. I am an SDE Intern at Amazon. I'm a Full Stack Developer.</p>
-              <div class="resources">
-                  <p>3 Useful Dev Resources</p>
-                  <ul>
-                      <li>
-                          <a href="https://blog.cloudflare.com/even-faster-connection-establishment-with-quic-0-rtt-resumption/" target="_blank" title="First Resource">Even faster connection establishment with QUIC 0-RTT resumption</a>
-                      </li>
-                      <li>
-                          <a href="https://kerkour.com/web-application-with-rust-and-webassembly" target="_blank" title="Second Resource">Building a web application with Rust and WebAssembly                        </a>
-                      </li>
-                      <li>
-                          <a href="https://engineering.fb.com/2022/09/12/open-source/memlab/" target="_blank" title="Third resource">MemLab: An open source framework for finding JavaScript memory leaks</a>
-                      </li>
-                  </ul>
-              </div>
           </div>
-
-          <!--Gourav's card End-->
-
-
-
-            <!-- ________ birobirobiro's card START ________  -->
-
-            <div class="card">
-                <p class="name">birobirobiro</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/birobirobirodev" target="_blank">@birobirobirodev</a>
-                </p>
-                <p class="about">My name is João, better known as Biro and I am 29 years old.
-
-                    I'm a front-end programmer, passionate about technology. I currently work as a Developer Instructor
-                    at Rocketseat and I have 2 years of experience with these technologies: HTML, CSS, JavaScript,
-                    TypeScript, TailwindCSS, ReactJS and React Native. </p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://birobirobiro.dev" target="_blank" title="First Resource">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/birobirobiro" target="_blank"
-                                title="Second Resource">Instagram</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/birobirobiro" target="_blank"
-                                title="Third resource">Youtube</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-                    
-
-            <!-- ________ birobirobiro's card END ________  -->
-
-
-
-                       <!-- ________ anasilveira9787's card START ________  -->
-
-                       <div class="card">
-                        <p class="name">anasilveira9787</p>
-                        <p class="contact">
-                            <i class="fab fa-linkedin-in"></i>
-                            <a href="https://www.linkedin.com/in/anaccord/" target="_blank">@anaccord</a>
-                        </p>
-                        <p class="about">My name is Ana Silveira, I'm a programmer from Brazil. 
-                            I'm currently working as developer instructor at Rocketseat, a well knowed coding school for Javascript lovers.
-                            I adore working with CSS, animations and graphic resources, so call me if you want your project to be prettier!
-
-                        </p>
-                        <div class="resources">
-                            <p>3 Useful Dev Resources</p>
-                            <ul>
-                                <li>
-                                    <a href="https://www.rocketseat.com.br" target="_blank" title="First Resource">Rocketseat</a>
-                                </li>
-                                <li>
-                                    <a href="https://grasshopper.app/pt_br/" target="_blank"
-                                        title="Second Resource">Grasshopper by Google</a>
-                                </li>
-                                <li>
-                                    <a href="https://mjml.io/" target="_blank"
-                                        title="Third resource">MJML</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>           
-        
-                    <!-- ________ anasilveira9787's card END ________  -->
-                    
-                    <!-- ________ ialexanderbrito's card START ________  -->
-
-                     <div class="card">
-                        <p class="name">ialexanderbrito</p>
-                        <p class="contact">
-                            <i class="fab fa-twitter"></i>
-                            <a href="https://twitter.com/ialexanderbrito" target="_blank">@ialexanderbrito</a>
-                        </p>
-                        <p class="about">My name is Alexander, I'm 25 years old, I live in Rio de Janeiro Brazil, I'm a Front-end Full React developer, currently working at Localiza.</p>
-                        <div class="resources">
-                            <p>3 Useful Dev Resources</p>
-                            <ul>
-                                <li>
-                                    <a href="https://www.alura.com.br/" target="_blank" title="First Resource">Rocketseat</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.alura.com.br" target="_blank"
-                                        title="Second Resource">Alura</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-        
-                    <!-- ________ ialexanderbrito's card END ________  -->
-            
-
-             <!--Harshwardhan's card-->
-
-             <div class="card">
-              <p class="name">HARSHWARDHAN TILEKAR</p>
-              <p class="contact">
-                  <i class="fab fa-linkedin-in"></i>
-                  <a href="https://www.linkedin.com/in/harshwardhan-tilekar-1a0794212/" target="_blank">HARSHWARDHAN TILEKAR</a>
-              </p>
-              <p class="about">I'm Harshwardhan Tilekar, currently pursuing my computer engineering degree. 
-I'm passionate about the cloud and also worked on some cloud provider platforms, such as GCP, AWS, and AZURE.2 X Microsoft certified</p>
-              <div class="resources">
-                  <p>3 Useful Cloud Computing Resources</p>
-                  <ul>
-                      <li>
-                          <a href="https://www.udemy.com/user/stephane-maarek/" target="_blank" title="First Resource">Udemy course</a>
-                      </li>
-                      <li>
-                          <a href="https://aws.amazon.com/what-is-cloud-computing/" target="_blank" title="Second Resource">AWS documentation</a>
-                      </li>
-                      <li>
-                          <a href="https://learn.microsoft.com/en-us/azure/?product=popular" target="_blank" title="Third resource">Azure documentation</a>
-                      </li>
-                  </ul>
-              </div>
+          <!-- / Night Mode Creation -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-double padding-buttom">
+          <div class="column-left">
+            <style>
+              h1 {
+                text-align: center;
+              }
+              h2 {
+                text-align: center;
+              }
+              p {
+                text-align: center;
+              }
+            </style>
+            <h1>Resource Finder</h1>
+            <h2>Help your friends find some good learning resources</h2>
+            <p>
+              Share good learning resources and make this project a resource
+              hub, where all can find the resrouces which will help learners in
+              their journey
+            </p>
           </div>
-
-          <!--Harshwardhan's card End-->
-            
-            
-            
-          <!--Yash's card-->
-               <div class="card">
-                <p class="name">Yash</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="www.linkedin.com/in/yash-mathur-3a2aa21b7" target="_blank">Yash Mathur</a>
-                </p>
-                <p class="about">My name is Yash, I am starting college this year, I am studying computer science engineering from an A rated institute in Delhi,
-                   i'm passionate about cyber security and related areas.</p>
-                <div class="resources">
-                    <p>3 Useful Cyber Sec Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.springboard.com/blog/cybersecurity/12-must-watch-cybersecurity-ted-talks/" target="_blank" title="Resource 1">Ted Talks</a>
-                        </li>
-                        <li>
-                            <a href="https://www.ninjaone.com/resources/" target="_blank" title="Resource 2">Ninjaone resources</a>
-                        </li>
-                        <li>
-                            <a href="https://screenshot-media.com/technology/innovation/cybersecurity-documentaries/" target="_blank" title="Third resource">Cybersecurity Documentaries</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--Yash's card End-->
-
-            <!--Deepanshu's card-->
-            <div class="card">
-                <p class="name">Deepanshu Manocha</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/dmanocha464" target="_blank">@dmanocha464</a>
-                </p>
-                <p class="about">I am 2021 passout with 1 year of experience, currently working as a software engineer. I am learning git,github 
-                    to contribute to various open souce projects.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://goodfirstissue.dev/" target="_blank" title="First Resource">Site if you are looking for good-first-issue</a>
-                        </li>
-                        <li>
-                            <a href="https://www.virustotal.com/gui/home/upload" target="_blank" title="Second Resource">Scan any suspicious link before opening</a>
-                        </li>
-                        <li>
-                            <a href="https://www.sejda.com/" target="_blank" title="Third resource">Edit PDF file online</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--Deepanshu's card End--!>
-             <!--Sneha's card-->
-            <div class="card">
-                <p class="name">Sneha Agarwal</p>
-                <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://twitter.com/isyneha" target="_blank">@isyneha</a>
-                </p>
-                <p class="about">I am a pen-ultimate third year undergraduate at HArcourt Butler Technical University, Kanpur. A firm believer who loves to explore various domains.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.w3schools.com" target="_blank" title="First Resource">Site for learning front-End Development</a>
-                        </li>
-                        <li>
-                            <a href="https://www.freecodecamp.org/learn" target="_blank" title="Second Resource">Another good course for Front-end Developemnt and more</a>
-                        </li>
-                        <li>
-                            <a href="https://www.geeksforgeeks.org/" target="_blank" title="Third resource">For DSA and CSE Subjects</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--Deepanshu's card End--!>
-            <!--lenalightning's card-->
-            <div class="card">
-                <p class="name">lenalightning</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/barbosaamanda/" target="_blank">@lenalightning</a>
-                </p>
-                <p class="about">hi, I'm Amanda, I'm starting my studies in programming. 
-                    It's still a new world for me, but I'm really enjoying it. 
-                    I work at Rocketseat, the largest programming school in Latin America, and I have contact with programming every day.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.youtube.com/watch?v=DemagUML778&t=72s" target="_blank" title="How to organize a study schedule?">Organize a study</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/watch?v=QfcozcbDhNM" target="_blank" title="Study techniques and learning techniques">Study techniques</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/watch?v=Fzwr1JcqFo4&t=76s" target="_blank" title="Programming study techniques">Programming techniques</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!--lenalightning's card end--!>
-            <!--Samman's card-->
-              <div class="card">
-                <p class="name">Samman Sarkar</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/Samman-Sarkar/" target="_blank">@SammanSarkar</a>
-                </p>
-                <p class="about">I am an undergrad student in Netaji Subhas University of Technology,Delhi. 
-                    I am new to open source and looking forward  to contribute to various open souce projects.
-                </p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.w3schools.com/" target="_blank" title="Resource 1">w3Schools</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/WebDevSimplified" target="_blank" title="Resource 2">WebDevSimplified</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/Freecodecamp" target="_blank" title="Resource 3">Freecodecamp</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!--Samman's card end--!>
-
-
-              <!--HimanshuSinghNegi's card-->
-            <div class="card">
-                <p class="name">Himanshu Singh Negi</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/himanshusinghnegi/" target="_blank">Himanshu Negi</a>
-                </p>
-                <p class="about">Hi, My name is Himanshu Singh Negi. I am pursuing MCA. And this is my first Contribution.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://youtube.com/playlist?list=PLnfapp4Woqpo0QDKTi692dveQJAW-GzB9" target="_blank" title="Core Java">Learn Core Java -(Hindi)</a>
-                        </li>
-                        <li>
-                            <a href="https://youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1" target="_blank" title="Android Development">Project Based Android Development Course -(Hindi)</a>
-                        </li>
-                        <li>
-                            <a href="https://youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA" target="_blank" title="DSA Course">Complete C++ DSA Course -(Hindi)</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!--HimanshuSinghNegi's card end--!>
-
-            <!--Abhijeet Srivastav card-->
-            <div class="card">
-                <p class="name">Abhijeet Srivastav</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/abhijeet-srivastav-02245a18b/" target="_blank">Abhijeet Srivastav</a>
-                </p>
-                <p class="about">Hi, My name is Abhijeet Srivastav. I am pursuing B.Texh. And this is my first contribution to Hacktoberfest.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.youtube.com/user/krishnaik06" target="_blank" title="Data Science">Data Science</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/Coreyms" target="_blank" title="Python Development">Corey Schafer</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/sentdex" target="_blank" title="Machine Learning">Sentdex)</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-          
-            <!--Abhijeet Srivastav card end-->
-
-            <!-- Nitish card -->
-            <div class="card">
-                <p class="name">Nitish Singh</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/nitish-singh-2aa827206//" target="_blank">Nitish Singh</a>
-                </p>
-                <p class="about">Hey I m Nitish Singh, Persuing B tech from computer science. Currently learning Web Development</p>
-                <div class="resources">
-                    <p>3 Useful Web Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://nodejsera.com/30-days-of-node.html" target="_blank" title="First Resource">For Node.js</a>
-                        </li>
-                        <li>
-                            <a href="https://learngitbranching.js.org/" target="_blank" title="Second Resource">For Github</a>
-                        </li>
-                        <li>
-                            <a href="https://www.jsv9000.app/" target="_blank" title="Third resource">For Javascript</a>
-
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Nitish card end -->
-                    
-    <div class="card">
-        <p class="name">Nitin Bisht</p>
-        <p class="contact">
-            <i class="fab fa-linkedin-in"></i>
-            <a href="https://www.linkedin.com/in/nitin-bisht-3545a8216/" target="_blank">Nitin Bisht</a>
-        </p>
-        <p class="about"> a front end devloper and an open source beginner from netaji subhas university of technology 2nd year</p>
-        <div class="resources">
+        </div>
+        <div class="column">
+          <div class="column-right">
+            <style>
+              p {
+                text-align: center;
+              }
+              div {
+                text-align: center;
+              }
+            </style>
+            <p>Contributions so far...</p>
+            <div class="animated" id="contributions-number">07</div>
+          </div>
+        </div>
+      </div>
+      <div class="searchContainer">
+        <input
+          id="searchbar"
+          type="search"
+          name="search"
+          placeholder="Search for your card here!"
+        />
+      </div>
+      <div class="grid">
+        <!-- ________ Abhay Chandel Contributor card START ________  -->
+        <div class="card">
+          <p class="name">Abhay Chandel</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/abhaychandel404" target="_blank"
+              >@abhaychandel404</a
+            >
+          </p>
+          <p class="about">
+            I am currently pursuing a Bachelor of Technology in Computer Science
+            Engineering. I am currently studying JavaScript and DSA. I am gonna
+            learn React after completing Js.
+          </p>
+          <div class="resources">
             <p>3 Useful Dev Resources</p>
             <ul>
-                <li>
-                    <a href="https://www.w3schools.com"
-                        target="_blank" title="MIT 600x">W3schools
-                        </a>
-                </li>
-                <li>
-                    <a href="https://www.codecademy.com/" target="_blank"
-                        title="introduction to web devlopment">Codeacademy </a>
-                </li>
-
-                <li>
-                    <a href="https://www.freecodecamp.org/" target="_blank"
-                        title="provide every aspect of learning for a devloper">Freecodecamp</a>
-                </li>
+              <li>
+                <a
+                  href="https://www.freecodecamp.org"
+                  target="_blank"
+                  title="First Resource"
+                  >FreeCodeCamp</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.edx.org"
+                  target="_blank"
+                  title="Second Resource"
+                  >Edx Courses</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.theodinproject.com"
+                  target="_blank"
+                  title="Third resource"
+                  >The Odin Project</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________Abhay Chandel Contributor card END ________  -->
+        <!-- ________ Gilang Kharisma Contributor card START ________  -->
+        <div class="card">
+          <p class="name">Gilang Kharisma</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://www.twitter.com/lalumuhammadgk1" target="_blank"
+              >Your handle</a
+            >
+          </p>
+          <p class="about">
+            I'm Gilang Kharisma, I'm still learning about mysql, and I
+            interested with web programing, I'm from indoneisa, Nice to meet you
+          </p>
+          <div class="resources">
+            <p>3 Useful website to learn code with Indonesian Language</p>
+            <ul>
+              <li>
+                <a
+                  href="https://codepolitan.com/"
+                  target="_blank"
+                  title="First Resource"
+                  >Place to learn code with Indonesian Language</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.hostinger.co.id/tutorial/belajar-coding-online-gratis"
+                  target="_blank"
+                  title="Second Resource"
+                  >List of place to learn code freely</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://codesaya.com/"
+                  target="_blank"
+                  title="Third resource"
+                  >Place to learn code with Indonesian Language</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________ Gilang Kharisma Contributor card END ________  -->
+        <!-- ________ Dhruva Contributor card START ________  -->
+        <div class="card">
+          <p class="name">Dhruva Bhattacharya</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/DhruvaBhattach2" target="_blank"
+              >@DhruvaBhattach2</a
+            >
+          </p>
+          <p class="about">
+            I am Dhruva Bhattacharya, currently pursuing B.Tech in Artificial
+            Intelligence and Machine Learning at Gyan Ganga Institute of
+            Technology and Science Jabalpur. A full stack developer, self-led
+            learner, team player, and a software enthusiast who loves to build
+            products. Besides developing, I enjoy writing technical blogs. I am
+            a full stack developer and a software enthusiast who loves to build
+            products.
+          </p>
+          <div class="resources">
+            <p>3 Useful Web 3.0 Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/watch?v=ipwxYa-F1uY"
+                  target="_blank"
+                  title="A Full Course on Ethereum, Blockchain Development, Smart Contracts, and the EVM"
+                  >Block Chain Development and Smart Contract</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.coursera.org/learn/smarter-contracts"
+                  target="_blank"
+                  title="Smart Contracts - Zero to Hero"
+                  >Smart Contract Beginner to Advance</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://youtu.be/ci_AIMCF-HA"
+                  target="_blank"
+                  title="Roadmap to learn Blockchain Development"
+                  >Roadmap for Blockchain Development</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________Dhruva Contributor card END ________  -->
+        <!-- ________ *Srijoy* Contributor card START ________  -->
+        <div class="card">
+          <p class="name">Srijoy Paul</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/SdDecent" target="_blank">@SdDecent</a>
+          </p>
+          <p class="about">
+            I am currently pursuing a Bachelor of Science in Computer
+            Engineering. I am currently studying DSA and web development. I am
+            also excited about AI and what it has to offer in terms of solving
+            problems in a modern and effective manner.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/EbookFoundation/free-programming-books"
+                  target="_blank"
+                  title="Progamming Ebooks Repo"
+                  >Resource 1</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kamranahmedse/developer-roadmap"
+                  target="_blank"
+                  title="Second Resource"
+                  >Resource 2</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://devdocs.io/"
+                  target="_blank"
+                  title="Third resource"
+                  >Documentation for different technologies</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________*Srijoy* Contributor card END ________  -->
+        <!-- ________ Piyush's card START ________  -->
+        <div class="card">
+          <p class="name">Piyush Chandel</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/Piyush_Chandel7" target="_blank"
+              >@Piyush_Chandel7</a
+            >
+          </p>
+          <p class="about">
+            A Front-End Developer, currently learning git and contributing into
+            various open-source projects
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/thedaviddias/Resources-Front-End-Beginner"
+                  target="_blank"
+                  title="First Resource"
+                  >The most essential list of resources for Front-End
+                  beginners.</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/bradtraversy/design-resources-for-developers"
+                  target="_blank"
+                  title="Second Resource"
+                  >Curated list of design and UI resources.</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/learning-zone/website-templates"
+                  target="_blank"
+                  title="Third resource"
+                  >Website templates.</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________ Piyush's card END ________  -->
+        <div class="card">
+          <p class="name">Kirtan Kushwah</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://www.twitter.com/T_kirtan_" target="_blank"
+              >T_kirtan_</a
+            >
+          </p>
+          <p class="about">
+            I am a tech geek who is passionate about community learning and
+            comfortable in adopting new technologies and environment. I have
+            previously lead communities where I learned skills which included
+            DevOps, Management, Leadership and working for Non-profit causes.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://learn.microsoft.com/en-us/training/"
+                  target="_blank"
+                  title="First Resource"
+                  >Microsoft Learn Documentations</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://stackoverflow.com/"
+                  target="_blank"
+                  title="Second Resource"
+                  >StackOverFlow - Troubleshooting</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.cloudskillsboost.google/"
+                  target="_blank"
+                  title="Third resource"
+                  >Cloud Skills Boost - Qwiklabs</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="name">Mrinank Bhowmick</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://www.twitter.com/" target="_blank">_mrinank_</a>
+          </p>
+          <p class="about">
+            𝙸’𝚖 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚕𝚎𝚊𝚛𝚗𝚒𝚗𝚐 what I need. 𝙸’𝚖 𝚕𝚘𝚘𝚔𝚒𝚗𝚐 𝚝𝚘 𝚌𝚘𝚕𝚕𝚊𝚋𝚘𝚛𝚊𝚝𝚎 𝚘𝚗
+            more and more Open source projects. 𝙿𝚛𝚘𝚗𝚘𝚞𝚗𝚜 : 𝙷𝚎/𝙷𝚒𝚖/𝙷𝚒𝚜
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.w3schools.com/python/"
+                  target="_blank"
+                  title="Python Resource from w3schools"
+                  >Resource 1</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.codewars.com/"
+                  target="_blank"
+                  title="Python Challenges on CodeWars"
+                  >Resource 2</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://exercism.org/tracks/python"
+                  target="_blank"
+                  title="Python Challenges on exercism"
+                  >Resource 3</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="name">Varun Kakathiya</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://www.twitter.com/" target="_blank"
+              >KakathiyaVarun</a
+            >
+          </p>
+          <p class="about">
+            I am an Open Source Enthusiast who always tries to create an impact
+            on society.I am also passionate about new technlogies too.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.htmlandcssbook.com/"
+                  target="HTML and CSS resources"
+                  title="blank"
+                  >Html and CSS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.codechef.com/wiki/tutorial-number-theory/"
+                  target="Number theory for CP"
+                  title="blank"
+                  >Basic number theory</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.freecodecamp.org/news/30-free-resources-for-learning-javascript-fundamentals/"
+                  target="blank"
+                  title="Javascript by Freecodecamp"
+                  >Javascript Resources</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="name">Sajal</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://www.twitter.com/sajalkmr18" target="_blank"
+              >sajalkmr18</a
+            >
+          </p>
+          <p class="about">
+            Hey, I'm an undergrad IT student who loves Cyber Security. I'm
+            currently learning Web Dev.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://missing.csail.mit.edu/"
+                  target="_blank"
+                  title="First Resource"
+                  >Missing Semester by MIT</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/ossu/computer-science"
+                  target="_blank"
+                  title="Second Resource"
+                  >OSSU</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kamranahmedse/developer-roadmap"
+                  target="_blank"
+                  title="Third resource"
+                  >Roadmaps</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________Contributor card END ________  -->
+        <div class="card">
+          <p class="name">Vipin Chaudhary</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/" target="_blank">itsvipindev</a>
+          </p>
+          <p class="about">
+            Back-end Enthusiast • Learning in public 📘 • Tweets about web
+            development 🐦 • Open source✨
+          </p>
+          <div class="resources">
+            <p>3 Useful Backend Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.freecodecamp.org/learn/back-end-development-and-apis/"
+                  target="_blank"
+                  title="First Resource"
+                  >Freecodecamp Backend and API development course
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.commclassroom.org/backend-roadmap"
+                  target="_blank"
+                  title="Second Resource"
+                  >Backend roadmap by commclassroom</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://codedamn.com/learning-paths/backend"
+                  target="_blank"
+                  title="Third resource"
+                  >Back-end learning path by codedamn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="name">Sumit</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/SumitKanth99" target="_blank">Sumit</a>
+          </p>
+          <p class="about">
+            I am a web developer, coder and a open source enthusiastic
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://fontawesome.com/"
+                  target="_blank"
+                  title="First Resource"
+                  >Fontawesome</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://dribbble.com/"
+                  target="_blank"
+                  title="Second Resource"
+                  >Dribbble</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://tinypng.com/"
+                  target="_blank"
+                  title="Third Resource"
+                  >Tiny png</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="name">forno</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/ashutosh-sahuu/"
+              target="_blank"
+              >Ashutosh</a
+            >
+          </p>
+          <p class="about">New to open source</p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.edx.org/course/introduction-to-computer-science-and-programming-7"
+                  target="_blank"
+                  title="MIT 600x"
+                  >Introduction to Computer Science and Programming Using
+                  Python</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/ossu/computer-science"
+                  target="_blank"
+                  title="Open Source Society University"
+                  >Path to a free self-taught education in Computer Science!</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/freeCodeCamp/freeCodeCamp"
+                  target="_blank"
+                  title="Free Code Academy"
+                  >freeCodeCamp.org's open-source codebase and curriculum. Learn
+                  to code for free.</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <p class="name">Sarthak Wakchaure</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/SarthakWakchau3" target="_blank"
+              >Sumit</a
+            >
+          </p>
+          <p class="about">
+            I am a web developer, coder and a Machine Learning enthusiastic
+          </p>
+          <div class="resources">
+            <p>Machine Learning Resources & Project</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.freecodecamp.org/news/how-to-learn-machine-learning-practical-tips-and-resources/"
+                  target="_blank"
+                  title="First Resource"
+                  >freecodecamp</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://youtu.be/NWONeJKn6kc/"
+                  target="_blank"
+                  title="Second Resource"
+                  >Youtube(freecodecamp)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Sarthak88-tech/Breast-Cancer-Prediction-ML"
+                  target="_blank"
+                  title="Third Resource"
+                  >ML Project</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Vaibhav's card-->
+        <div class="card">
+          <p class="name">Vaibhav</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/vaibhav-mishra-7006911b5/"
+              target="_blank"
+              >Vaibhav Mishra</a
+            >
+          </p>
+          <p class="about">
+            Hey! I'm Vaibhav, 4th year engineering student. I like to code and
+            develop stuff. Always looking for cool projects to collaborate on.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLwGdqUZWnOp3t3qT7pvAznwUDzKbhEcCc"
+                  target="_blank"
+                  title="Full MERN"
+                  >Full MERN Stack learning with project</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLC3y8-rFHvwg2-q6Kvw3Tl_4xhxtIaNlY"
+                  target="_blank"
+                  title="Learn about chrome extension"
+                  >Learn and build your own chrome extensions</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.geeksforgeeks.org/web-development/"
+                  target="_blank"
+                  title="Learn web Dev"
+                  >Learn full web development with blogs</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Rahul's card-->
+        <div class="card">
+          <p class="name">Rahul Kumar</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/rahul-kumar-072/"
+              target="_blank"
+              >Rahul Kumar</a
+            >
+          </p>
+          <p class="about">
+            I am a technology enthusiast and love competitive programming. Along
+            with I am pursuing my B.Tech with a specialization in Civil
+            Engineering
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+                  target="_blank"
+                  title="First Resource"
+                  >JavaScript</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://goalkicker.com"
+                  target="_blank"
+                  title="First Resource"
+                  >Programming Notes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kamranahmedse/design-patterns-for-humans"
+                  target="_blank"
+                  title="Third resource"
+                  >Design Pattern Explained</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Aniket's card-->
+        <div class="card">
+          <p class="name">Aniket Ghosh</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/aniketghosh-64550a191/"
+              target="_blank"
+              >aniketghosh</a
+            >
+          </p>
+          <p class="about">
+            Hey! I'm Aniket, 4th year CS engineering student. I am a
+            keen-learner who likes to code and develop stuff. Also I like to
+            share my knowledge and understanding amongst all other keen-learners
+            and help all of us grow. Always looking for innovative projects to
+            collaborate on.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://mbeaudru.github.io/modern-js-cheatsheet/"
+                  target="_blank"
+                  title="JS"
+                  >Modern JS Cheetsheet</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/kunaltyagi9/MERN-Stack-Projects"
+                  target="_blank"
+                  title="MERN"
+                  >Hands-on MERN Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://colorhunt.co/"
+                  target="_blank"
+                  title="Color Palette"
+                  >Hex of all Color Palette</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Sayak's card-->
+        <div class="card">
+          <p class="name">Sayak Rana</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/sayak-rana-125a48192/"
+              target="_blank"
+              >Sayak Rana</a
+            >
+          </p>
+          <p class="about">
+            Currently, I am am studying in 4th Year in IIEST Shibpur within the
+            department Computer Science and Technology.I am exploring various
+            fields of Computer Science and Technology.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.w3schools.com/"
+                  target="_blank"
+                  title="First Resource"
+                  >W3Schhols for HTML,CSS,JS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP"
+                  target="_blank"
+                  title="Second Resource"
+                  >Namaste Javascript</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+                  target="_blank"
+                  title="Third resource"
+                  >Full Stack with Code With Harry</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Aniket's card-->
+        <div class="card">
+          <p class="name">Aniket Shekhar Chaudhari</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/aniket-chaudhari-9114a322a"
+              target="_blank"
+              >Aniket Chaudhari</a
+            >
+          </p>
+          <p class="about">
+            Hey! I am a second year student pursuing my B.Tech degree in
+            Computer Science and Engineering . I like to do competitive
+            Programming along with web-development
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.w3schools.com/"
+                  target="_blank"
+                  title="First Resource"
+                  >w3Schools</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/WebDevSimplified"
+                  target="_blank"
+                  title="Second Resource"
+                  >WebDevSimplified</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/Freecodecamp"
+                  target="_blank"
+                  title="Third resource"
+                  >Freecodecamp</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________ Shivendra's card START ________  -->
+        <div class="card">
+          <p class="name">Shivendra Pandey</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/Shivendra_0510" target="_blank"
+              >Shivendra_0510</a
+            >
+          </p>
+          <p class="about">
+            Hey ! Shivendra here, a second-year undergraduate at IIT BHU. I have
+            keen interest in Competitive Programming, Web Development and I have
+            recently started contributing to open source projects.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/TraversyMedia"
+                  target="_blank"
+                  title="First Resource"
+                  >TraversyMedia</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/TheNetNinja"
+                  target="_blank"
+                  title="Second Resource"
+                  >TheNetNinja</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/Freecodecamp"
+                  target="_blank"
+                  title="Third resource"
+                  >Freecodecamp</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________ Shivendra's card END ________  -->
+        <!--Gourav's card-->
+        <div class="card">
+          <p class="name">Gourav Saini</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/g7i/" target="_blank"
+              >Gourav Saini</a
+            >
+          </p>
+          <p class="about">
+            Hey! I am Gourav Saini. I am an SDE Intern at Amazon. I'm a Full
+            Stack Developer.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://blog.cloudflare.com/even-faster-connection-establishment-with-quic-0-rtt-resumption/"
+                  target="_blank"
+                  title="First Resource"
+                  >Even faster connection establishment with QUIC 0-RTT
+                  resumption</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://kerkour.com/web-application-with-rust-and-webassembly"
+                  target="_blank"
+                  title="Second Resource"
+                  >Building a web application with Rust and WebAssembly
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://engineering.fb.com/2022/09/12/open-source/memlab/"
+                  target="_blank"
+                  title="Third resource"
+                  >MemLab: An open source framework for finding JavaScript
+                  memory leaks</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Gourav's card End-->
+        <!-- ________ birobirobiro's card START ________  -->
+        <div class="card">
+          <p class="name">birobirobiro</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/birobirobirodev" target="_blank"
+              >@birobirobirodev</a
+            >
+          </p>
+          <p class="about">
+            My name is João, better known as Biro and I am 29 years old. I'm a
+            front-end programmer, passionate about technology. I currently work
+            as a Developer Instructor at Rocketseat and I have 2 years of
+            experience with these technologies: HTML, CSS, JavaScript,
+            TypeScript, TailwindCSS, ReactJS and React Native.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://birobirobiro.dev"
+                  target="_blank"
+                  title="First Resource"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/birobirobiro"
+                  target="_blank"
+                  title="Second Resource"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/birobirobiro"
+                  target="_blank"
+                  title="Third resource"
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________ birobirobiro's card END ________  -->
+        <!-- ________ anasilveira9787's card START ________  -->
+        <div class="card">
+          <p class="name">anasilveira9787</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/anaccord/" target="_blank"
+              >@anaccord</a
+            >
+          </p>
+          <p class="about">
+            My name is Ana Silveira, I'm a programmer from Brazil. I'm currently
+            working as developer instructor at Rocketseat, a well knowed coding
+            school for Javascript lovers. I adore working with CSS, animations
+            and graphic resources, so call me if you want your project to be
+            prettier!
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.rocketseat.com.br"
+                  target="_blank"
+                  title="First Resource"
+                  >Rocketseat</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://grasshopper.app/pt_br/"
+                  target="_blank"
+                  title="Second Resource"
+                  >Grasshopper by Google</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://mjml.io/"
+                  target="_blank"
+                  title="Third resource"
+                  >MJML</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________ anasilveira9787's card END ________  -->
+        <!-- ________ ialexanderbrito's card START ________  -->
+        <div class="card">
+          <p class="name">ialexanderbrito</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/ialexanderbrito" target="_blank"
+              >@ialexanderbrito</a
+            >
+          </p>
+          <p class="about">
+            My name is Alexander, I'm 25 years old, I live in Rio de Janeiro
+            Brazil, I'm a Front-end Full React developer, currently working at
+            Localiza.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.alura.com.br/"
+                  target="_blank"
+                  title="First Resource"
+                  >Rocketseat</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.alura.com.br"
+                  target="_blank"
+                  title="Second Resource"
+                  >Alura</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________ ialexanderbrito's card END ________  -->
+        <!--Harshwardhan's card-->
+        <div class="card">
+          <p class="name">HARSHWARDHAN TILEKAR</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/harshwardhan-tilekar-1a0794212/"
+              target="_blank"
+              >HARSHWARDHAN TILEKAR</a
+            >
+          </p>
+          <p class="about">
+            I'm Harshwardhan Tilekar, currently pursuing my computer engineering
+            degree. I'm passionate about the cloud and also worked on some cloud
+            provider platforms, such as GCP, AWS, and AZURE.2 X Microsoft
+            certified
+          </p>
+          <div class="resources">
+            <p>3 Useful Cloud Computing Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.udemy.com/user/stephane-maarek/"
+                  target="_blank"
+                  title="First Resource"
+                  >Udemy course</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://aws.amazon.com/what-is-cloud-computing/"
+                  target="_blank"
+                  title="Second Resource"
+                  >AWS documentation</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://learn.microsoft.com/en-us/azure/?product=popular"
+                  target="_blank"
+                  title="Third resource"
+                  >Azure documentation</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Harshwardhan's card End-->
+        <!--Yash's card-->
+        <div class="card">
+          <p class="name">Yash</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a href="www.linkedin.com/in/yash-mathur-3a2aa21b7" target="_blank"
+              >Yash Mathur</a
+            >
+          </p>
+          <p class="about">
+            My name is Yash, I am starting college this year, I am studying
+            computer science engineering from an A rated institute in Delhi, i'm
+            passionate about cyber security and related areas.
+          </p>
+          <div class="resources">
+            <p>3 Useful Cyber Sec Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.springboard.com/blog/cybersecurity/12-must-watch-cybersecurity-ted-talks/"
+                  target="_blank"
+                  title="Resource 1"
+                  >Ted Talks</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.ninjaone.com/resources/"
+                  target="_blank"
+                  title="Resource 2"
+                  >Ninjaone resources</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://screenshot-media.com/technology/innovation/cybersecurity-documentaries/"
+                  target="_blank"
+                  title="Third resource"
+                  >Cybersecurity Documentaries</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Yash's card End-->
+        <!--Deepanshu's card-->
+        <div class="card">
+          <p class="name">Deepanshu Manocha</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/dmanocha464" target="_blank"
+              >@dmanocha464</a
+            >
+          </p>
+          <p class="about">
+            I am 2021 passout with 1 year of experience, currently working as a
+            software engineer. I am learning git,github to contribute to various
+            open souce projects.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://goodfirstissue.dev/"
+                  target="_blank"
+                  title="First Resource"
+                  >Site if you are looking for good-first-issue</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.virustotal.com/gui/home/upload"
+                  target="_blank"
+                  title="Second Resource"
+                  >Scan any suspicious link before opening</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.sejda.com/"
+                  target="_blank"
+                  title="Third resource"
+                  >Edit PDF file online</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Deepanshu's card End--!>
+               <!--Sneha's card-->
+        <div class="card">
+          <p class="name">Sneha Agarwal</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/isyneha" target="_blank">@isyneha</a>
+          </p>
+          <p class="about">
+            I am a pen-ultimate third year undergraduate at HArcourt Butler
+            Technical University, Kanpur. A firm believer who loves to explore
+            various domains.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.w3schools.com"
+                  target="_blank"
+                  title="First Resource"
+                  >Site for learning front-End Development</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.freecodecamp.org/learn"
+                  target="_blank"
+                  title="Second Resource"
+                  >Another good course for Front-end Developemnt and more</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.geeksforgeeks.org/"
+                  target="_blank"
+                  title="Third resource"
+                  >For DSA and CSE Subjects</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Deepanshu's card End--!>
+               <!--lenalightning's card-->
+        <div class="card">
+          <p class="name">lenalightning</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/barbosaamanda/" target="_blank"
+              >@lenalightning</a
+            >
+          </p>
+          <p class="about">
+            hi, I'm Amanda, I'm starting my studies in programming. It's still a
+            new world for me, but I'm really enjoying it. I work at Rocketseat,
+            the largest programming school in Latin America, and I have contact
+            with programming every day.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/watch?v=DemagUML778&t=72s"
+                  target="_blank"
+                  title="How to organize a study schedule?"
+                  >Organize a study</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/watch?v=QfcozcbDhNM"
+                  target="_blank"
+                  title="Study techniques and learning techniques"
+                  >Study techniques</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/watch?v=Fzwr1JcqFo4&t=76s"
+                  target="_blank"
+                  title="Programming study techniques"
+                  >Programming techniques</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--lenalightning's card end--!>
+               <!--Samman's card-->
+        <div class="card">
+          <p class="name">Samman Sarkar</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/Samman-Sarkar/" target="_blank"
+              >@SammanSarkar</a
+            >
+          </p>
+          <p class="about">
+            I am an undergrad student in Netaji Subhas University of
+            Technology,Delhi. I am new to open source and looking forward to
+            contribute to various open souce projects.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.w3schools.com/"
+                  target="_blank"
+                  title="Resource 1"
+                  >w3Schools</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/WebDevSimplified"
+                  target="_blank"
+                  title="Resource 2"
+                  >WebDevSimplified</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/Freecodecamp"
+                  target="_blank"
+                  title="Resource 3"
+                  >Freecodecamp</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Samman's card end--!>
+               <!--HimanshuSinghNegi's card-->
+        <div class="card">
+          <p class="name">Himanshu Singh Negi</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/himanshusinghnegi/"
+              target="_blank"
+              >Himanshu Negi</a
+            >
+          </p>
+          <p class="about">
+            Hi, My name is Himanshu Singh Negi. I am pursuing MCA. And this is
+            my first Contribution.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://youtube.com/playlist?list=PLnfapp4Woqpo0QDKTi692dveQJAW-GzB9"
+                  target="_blank"
+                  title="Core Java"
+                  >Learn Core Java -(Hindi)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://youtube.com/playlist?list=PLUhfM8afLE_Ok-0Lx2v9hfrmbxi3GgsX1"
+                  target="_blank"
+                  title="Android Development"
+                  >Project Based Android Development Course -(Hindi)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA"
+                  target="_blank"
+                  title="DSA Course"
+                  >Complete C++ DSA Course -(Hindi)</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--HimanshuSinghNegi's card end--!>
+               <!--Abhijeet Srivastav card-->
+        <div class="card">
+          <p class="name">Abhijeet Srivastav</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/abhijeet-srivastav-02245a18b/"
+              target="_blank"
+              >Abhijeet Srivastav</a
+            >
+          </p>
+          <p class="about">
+            Hi, My name is Abhijeet Srivastav. I am pursuing B.Texh. And this is
+            my first contribution to Hacktoberfest.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/user/krishnaik06"
+                  target="_blank"
+                  title="Data Science"
+                  >Data Science</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/Coreyms"
+                  target="_blank"
+                  title="Python Development"
+                  >Corey Schafer</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/sentdex"
+                  target="_blank"
+                  title="Machine Learning"
+                  >Sentdex)</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Abhijeet Srivastav card end-->
+        <!-- Nitish card -->
+        <div class="card">
+          <p class="name">Nitish Singh</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/nitish-singh-2aa827206//"
+              target="_blank"
+              >Nitish Singh</a
+            >
+          </p>
+          <p class="about">
+            Hey I m Nitish Singh, Persuing B tech from computer science.
+            Currently learning Web Development
+          </p>
+          <div class="resources">
+            <p>3 Useful Web Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://nodejsera.com/30-days-of-node.html"
+                  target="_blank"
+                  title="First Resource"
+                  >For Node.js</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://learngitbranching.js.org/"
+                  target="_blank"
+                  title="Second Resource"
+                  >For Github</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.jsv9000.app/"
+                  target="_blank"
+                  title="Third resource"
+                  >For Javascript</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Nitish card end -->
+        <div class="card">
+          <p class="name">Nitin Bisht</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/nitin-bisht-3545a8216/"
+              target="_blank"
+              >Nitin Bisht</a
+            >
+          </p>
+          <p class="about">
+            a front end devloper and an open source beginner from netaji subhas
+            university of technology 2nd year
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.w3schools.com"
+                  target="_blank"
+                  title="MIT 600x"
+                  >W3schools
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.codecademy.com/"
+                  target="_blank"
+                  title="introduction to web devlopment"
+                  >Codeacademy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.freecodecamp.org/"
+                  target="_blank"
+                  title="provide every aspect of learning for a devloper"
+                  >Freecodecamp</a
+                >
+              </li>
             </ul>
             <!-- Nitin Bisht -->
-
-         </div>
+          </div>
         </div>
-            
-            <!-- Saxam's card -->
-            <div class="card">
-                <p class="name">Saxam</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/saksham-singh-7aa1a4223/" target="_blank">Saxam</a>
-                </p>
-                <p class="about">Hey I m Saxam, Pursuing B.Tech in Computer Sciencee. Currently doing competitive programming</p>
-                <div class="resources">
-                    <p>3 Useful Web Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.w3schools.com/" target="_blank" title="First Resource">For Node.js</a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/c/Freecodecamp" target="_blank" title="Second Resource">For Github</a>
-                        </li>
-                        <li>
-                            <a href="https://nodejsera.com/30-days-of-node.html" target="_blank" title="Third resource">For Javascript</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Saxam's card end -->
-            <!-- Ayush's card -->
-            <div class="card">
-                <p class="name">Ayush Verma</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/integralayush/" target="_blank">Ayush Verma</a>
-                </p>
-                <p class="about">Hey! I'm Ayush Verma, 2nd year engineering student. I like Android Developemnt</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.youtube.com/c/flutterdev"
-                                target="_blank" title="Flutter">Basic to Advance Flutter Developemnt</a>
-                        </li>
-                        <li>
-                            <a href="https://www.freecodecamp.org/news/tag/mobile-app-development/"
-                                target="_blank" title="App Resources">Mobile App Resources</a>
-                        </li>
-                        <li>
-                            <a href="https://kotlinlang.org/docs/home.html" target="_blank"
-                                title="Learn Kotlin">Resource to learn kotlinlang</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Ayush's card end -->
-            <!-- Devraj's card -->
-            <div class="card">
-                <p class="name">Devraj Chatribin</p>
-                <p class="contact">
-                    <i class="fab fa-linkedin-in"></i>
-                    <a href="https://www.linkedin.com/in/devraj-chatribin/" target="_blank">Devraj Chatribin</a>
-                </p>
-                <p class="about">Hey! I'm Devraj Chatribin, a software engineer at Oneshield Software. I like UI/UX Design and Web Development.</p>
-                <div class="resources">
-                    <p>3 Useful Dev Resources</p>
-                    <ul>
-                        <li>
-                            <a href="https://roadmap.sh/"
-                                target="_blank" title="Flutter">Roadmap's for all development stacks</a>
-                        </li>
-                        <li>
-                            <a href="https://material.io/"
-                                target="_blank" title="App Resources">Material Design System</a>
-                        </li>
-                        <li>
-                            <a href="https://www.typewolf.com/" target="_blank"
-                                title="Learn Kotlin">Typewolf Fonts Website</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Devraj's card end -->
-
-
-            <!--contributor card end-->
-
-            <!-- <<<<< Do not change anything below this line >>>>> -->
-            <!-- -------------------------------------------------- -->
-
+        <!-- Saxam's card -->
+        <div class="card">
+          <p class="name">Saxam</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/saksham-singh-7aa1a4223/"
+              target="_blank"
+              >Saxam</a
+            >
+          </p>
+          <p class="about">
+            Hey I m Saxam, Pursuing B.Tech in Computer Sciencee. Currently doing
+            competitive programming
+          </p>
+          <div class="resources">
+            <p>3 Useful Web Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.w3schools.com/"
+                  target="_blank"
+                  title="First Resource"
+                  >For Node.js</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/Freecodecamp"
+                  target="_blank"
+                  title="Second Resource"
+                  >For Github</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://nodejsera.com/30-days-of-node.html"
+                  target="_blank"
+                  title="Third resource"
+                  >For Javascript</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <hr />
-        <footer>
-            Project by <a href="#">Bauddhik Geeks</a>
-            <span id="currentYear"></span>
-        </footer>
+        <!-- Saxam's card end -->
+        <!-- Ayush's card -->
+        <div class="card">
+          <p class="name">Ayush Verma</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/integralayush/" target="_blank"
+              >Ayush Verma</a
+            >
+          </p>
+          <p class="about">
+            Hey! I'm Ayush Verma, 2nd year engineering student. I like Android
+            Developemnt
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.youtube.com/c/flutterdev"
+                  target="_blank"
+                  title="Flutter"
+                  >Basic to Advance Flutter Developemnt</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.freecodecamp.org/news/tag/mobile-app-development/"
+                  target="_blank"
+                  title="App Resources"
+                  >Mobile App Resources</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://kotlinlang.org/docs/home.html"
+                  target="_blank"
+                  title="Learn Kotlin"
+                  >Resource to learn kotlinlang</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Ayush's card end -->
+        <!-- Devraj's card -->
+        <div class="card">
+          <p class="name">Devraj Chatribin</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a
+              href="https://www.linkedin.com/in/devraj-chatribin/"
+              target="_blank"
+              >Devraj Chatribin</a
+            >
+          </p>
+          <p class="about">
+            Hey! I'm Devraj Chatribin, a software engineer at Oneshield
+            Software. I like UI/UX Design and Web Development.
+          </p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a href="https://roadmap.sh/" target="_blank" title="Flutter"
+                  >Roadmap's for all development stacks</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://material.io/"
+                  target="_blank"
+                  title="App Resources"
+                  >Material Design System</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.typewolf.com/"
+                  target="_blank"
+                  title="Learn Kotlin"
+                  >Typewolf Fonts Website</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Devraj's card end -->
+        <!-- ________ Pranath Naik Contributor card START ________  -->
+        <div class="card">
+          <p class="name">Pranath Naik</p>
+          <p class="contact">
+            <i class="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/pranathnaik/" target="_blank"
+              >Pranath Naik</a
+            >
+          </p>
+          <p class="about">
+            Hey! I'm Pranath Naik, Associate software engineer at Oneshield
+            software. I like to explore javascript and it's framework/libraries
+          </p>
+          <div class="resources">
+            <p>Useful Javascript Resources</p>
+            <ul>
+              <li>
+                <a
+                  href="https://www.showwcase.com/show/16112/javascript-promises-explain-like-im-five"
+                  target="_blank"
+                  title="First Resource"
+                  >JavaScript Promises - Explain Like I'm Five</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif"
+                  target="_blank"
+                  title="Second Resource"
+                  >✨♻️ JavaScript Visualized: Event Loop</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf"
+                  target="_blank"
+                  title="Third resource"
+                  >🚀⚙️ JavaScript Visualized: the JavaScript Engine</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________Pranath Naik Contributor card END ________  -->
+        <!--contributor card end-->
+        <!-- <<<<< Do not change anything below this line >>>>> -->
+        <!-- -------------------------------------------------- -->
+      </div>
+      <hr />
+      <footer>
+        Project by <a href="#">Bauddhik Geeks</a>
+        <span id="currentYear"></span>
+      </footer>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script type="text/javascript" src="assets/script.js"></script>
-</body>
-
+  </body>
 </html>
