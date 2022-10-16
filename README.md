@@ -1,8 +1,8 @@
-# Resource-Card
+# Resource-Finder
 
 Knowledge is everywhere but in this modern world of so much knowledge it become difficult to gather it when you require it. Here's presenting to you all a website that will have all the useful Developer Resources which is made by you all, for all of us.
 
-Website: [Resource-Card](bauddhikgeeks.tech/Resource-Card/)
+Website: [Resource-Finder](http://bauddhikgeeks.tech/Resource-Finder)
 
 This repository is amintained by [Bauddhik-Geeks](https://github.com/Bauddhik-Geeks) with a vision to help developers and professionals.
 
@@ -37,7 +37,7 @@ It is just a cake-walk to contribute here. If you know Github and Git then it is
                 </div>
             </div>
 ```
- 2. Find the below given code snip in [index.html](https://github.com/Bauddhik-Geeks/Resource-Card/blob/main/index.html) file.
+ 2. Find the below given code snip in [index.html](https://github.com/Bauddhik-Geeks/Resource-Finder/blob/main/index.html) file.
 ```html
             <!-- ________*END TEMPLATE* Contributor card END ________  -->
 
@@ -57,9 +57,9 @@ It is just a cake-walk to contribute here. If you know Github and Git then it is
 
 <div align="center">
 
-<a href = "https://github.com/Bauddhik-Geeks/Resource-Card/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo=Bauddhik-Geeks/Resource-Card"/>
+<a href = "https://github.com/Bauddhik-Geeks/Resource-Finder/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=Bauddhik-Geeks/Resource-Finder"/>
 </a>
 
-### 🎉 Thanks for contributing to the Resource-Card 🎉
+### 🎉 Thanks for contributing to the Resource-Finder 🎉
   ### Happy contributing!
