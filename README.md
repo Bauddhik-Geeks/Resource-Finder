@@ -2,7 +2,7 @@
 
 Knowledge is everywhere but in this modern world of so much knowledge it become difficult to gather it when you require it. Here's presenting to you all a website that will have all the useful Developer Resources which is made by you all, for all of us.
 
-Website: [Resource-Card](bauddhikgeeks.tech/Resource-Card/)
+Website: [Resource-Finder](http://bauddhikgeeks.tech/Resource-Finder)
 
 This repository is amintained by [Bauddhik-Geeks](https://github.com/Bauddhik-Geeks) with a vision to help developers and professionals.
 
