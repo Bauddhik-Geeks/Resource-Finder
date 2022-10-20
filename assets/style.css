@@ -70,6 +70,29 @@ p {
     margin-bottom: 25px;
     line-height: 1.7;
 }
+/*logo*/
+.logo img{
+    border-radius: 50%;
+    padding: 2%;
+    background-color: #0C0C0C;
+}
+/*tittle*/
+.tittle {
+    margin: 0 15% 0 15%;
+    padding: 2%;
+    border-radius: 20px;
+    border-top: 1px  darkgrey solid;
+    border-bottom: 1px #FF00E8 solid;
+}
+
+
+ /*animation for "contributions-so-far"*/
+.animated{
+    animation: tada; 
+   --animate--slower:10s;
+    animation-iteration-count:infinite;
+}
+
 
 .searchContainer {
     display: flex;
