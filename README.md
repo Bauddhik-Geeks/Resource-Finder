@@ -57,7 +57,7 @@ It is just a cake-walk to contribute here. If you know Github and Git then it is
 5. Make sure it works correctly and here you are done!
 6. Commit your changes and start a pull request.
 
-## Thanks to all `Contributors`
+## Thanks to all Contributors 🔥
 
 <div align="center">
 
