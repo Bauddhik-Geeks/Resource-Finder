@@ -9,6 +9,10 @@ Website: [Resource-Finder](http://bauddhikgeeks.tech/Resource-Finder)
 
 This repository is amintained by [Bauddhik-Geeks](https://github.com/Bauddhik-Geeks) with a vision to help developers and professionals.
 
+##  Screenshots
+
+![github](https://user-images.githubusercontent.com/89373683/196949638-9f844d2b-9228-4918-aae5-ee26f7470cd1.png)
+
 ## What you can contribute?
 You can share three useful Developer Resources with us and help us in creating a big collection of all the good developer resources.
 
@@ -67,5 +71,6 @@ It is just a cake-walk to contribute here. If you know Github and Git then it is
   <img src = "https://contrib.rocks/image?repo=Bauddhik-Geeks/Resource-explorer"/>
 </a>
 
+### Find it interesting do give it a star ⭐
 ### 🎉 Thanks for contributing to the Resource-Finder 🎉
   ### Happy contributing!
