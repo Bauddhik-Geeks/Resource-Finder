@@ -2,9 +2,13 @@
 
 Knowledge is everywhere but in this modern world of so much knowledge it become difficult to gather it when you require it. Here's presenting to you all a website that will have all the useful Developer Resources which is made by you all, for all of us.
 
+Knowledge is everywhere but in this modern world of so much knowledge it become difficult to acquire it. Here's presenting to you all , a website that will contain all the useful Developer Resources which is made by you all, for all of us.
+
 Website: [Resource-Finder](http://bauddhikgeeks.tech/Resource-Finder)
 
 This repository is amintained by [Bauddhik-Geeks](https://github.com/Bauddhik-Geeks) with a vision to help developers and professionals.
+
+![github](https://user-images.githubusercontent.com/89373683/196949638-9f844d2b-9228-4918-aae5-ee26f7470cd1.png)
 
 ## What you can contribute?
 You can share three useful Developer Resources with us and help us in creating a big collection of all the good developer resources.
@@ -53,13 +57,12 @@ It is just a cake-walk to contribute here. If you know Github and Git then it is
 5. Make sure it works correctly and here you are done!
 6. Commit your changes and start a pull request.
 
-## Our `Contributors`
+## Thanks to all Contributors 🔥
 
 <div align="center">
 
 <a href = "https://github.com/Bauddhik-Geeks/Resource-Finder/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=Bauddhik-Geeks/Resource-Finder"/>
-</a>
 
-### 🎉 Thanks for contributing to the Resource-Finder 🎉
-  ### Happy contributing!
+### 🎉 Thanks for contributing to the Resource-Finder and don't forget to give it a star ⭐ 
+### Happy contributing!
