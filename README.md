@@ -1,6 +1,9 @@
 # Resource-Finder
+# Resource-explorer
 
 Knowledge is everywhere but in this modern world of so much knowledge it become difficult to gather it when you require it. Here's presenting to you all a website that will have all the useful Developer Resources which is made by you all, for all of us.
+
+Knowledge is everywhere but in this modern world of so much knowledge it become difficult to acquire it. Here's presenting to you all , a website that will contain all the useful Developer Resources which is made by you all, for all of us.
 
 Website: [Resource-Finder](http://bauddhikgeeks.tech/Resource-Finder)
 
@@ -59,6 +62,9 @@ It is just a cake-walk to contribute here. If you know Github and Git then it is
 
 <a href = "https://github.com/Bauddhik-Geeks/Resource-Finder/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=Bauddhik-Geeks/Resource-Finder"/>
+  
+<a href = "https://github.com/Bauddhik-Geeks/Resource-explorer/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=Bauddhik-Geeks/Resource-explorer"/>
 </a>
 
 ### 🎉 Thanks for contributing to the Resource-Finder 🎉
