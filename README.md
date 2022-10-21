@@ -8,7 +8,8 @@ Website: [Resource-Finder](http://bauddhikgeeks.tech/Resource-Finder)
 
 This repository is amintained by [Bauddhik-Geeks](https://github.com/Bauddhik-Geeks) with a vision to help developers and professionals.
 
-![github](https://user-images.githubusercontent.com/89373683/196949638-9f844d2b-9228-4918-aae5-ee26f7470cd1.png)
+![github](https://user-images.githubusercontent.com/72004239/197150055-745e788d-c725-47a5-88a2-cb3c96c7e283.png)
+
 
 ## What you can contribute?
 You can share three useful Developer Resources with us and help us in creating a big collection of all the good developer resources.
