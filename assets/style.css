@@ -72,8 +72,10 @@ p {
 }
 /*logo*/
 .logo img{
+    display: flex;
+    flex: left;
     border-radius: 50%;
-    padding: 2%;
+    padding: 4%;
     background-color: #0C0C0C;
 }
 /*tittle*/
@@ -195,6 +197,21 @@ footer {
     line-height: 50px;
     letter-spacing: 2px;
     margin: 16px;
+}
+
+/*social  icon*/
+.social_icon{
+    width: 25px;
+    height: 25px;
+    background-color: #FF00E8;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.social_icon:hover{
+    transform: rotate(360deg) scale(1.2);
+    transition-duration: 1s;
+    background-color: whitesmoke;
 }
 
 /* Card
