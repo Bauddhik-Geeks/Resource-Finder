@@ -22,6 +22,7 @@
     --box-shadow: 1px 1px 7px 0px #0000;
     --ease-out: 0.25s ease-in-out;
     --linkhover: rgb(128 128 128 / 1);
+    scroll-behavior: smooth;
 }
 
 body {
@@ -75,8 +76,21 @@ p {
     display: flex;
     flex: left;
     border-radius: 50%;
-    padding: 4%;
+    padding:0.5%;
     background-color: #0C0C0C;
+}
+
+/*follow btn*/
+.follow_btn{
+    background-color:#FF00E8; 
+    font-weight: bolder; 
+    border-radius: 5px;
+    padding: 4px;
+    color: whitesmoke; 
+}
+.follow_btn:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
 }
 /*tittle*/
 .tittle {
