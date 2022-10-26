@@ -88,6 +88,10 @@ p {
     padding: 4px;
     color: whitesmoke; 
 }
+.follow_btn:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
 /*tittle*/
 .tittle {
     margin: 0 15% 0 15%;
