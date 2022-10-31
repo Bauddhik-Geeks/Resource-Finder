@@ -1,3 +1,10 @@
+// set stored theme
+let mode = localStorage.getItem('mode');
+if (mode === "light") {
+  $('body').addClass('night');
+  $('#toggle-box-checkbox').prop('checked', true);
+}
+
 function init() {
   const contributionsDisplay = document.getElementById('contributions-number')
   const displayClass = document.getElementById('contributions-number').classList
@@ -56,12 +63,14 @@ function init() {
 
   // night mode feature
   $('#toggle-box-checkbox').on('change', function () {
+    localStorage.setItem('mode', this.checked ? "light" : "dark");
+    $('body').removeClass('no-transition');
     if (this.checked) {
       $('body').addClass('night')
     } else {
       $('body').removeClass('night')
     }
-  })
+  });
 
   function demo() {
     setInterval(function () {
