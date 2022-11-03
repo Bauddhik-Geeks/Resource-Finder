@@ -82,11 +82,12 @@ p {
 
 /*follow btn*/
 .follow_btn{
-    background-color:#FF00E8; 
-    font-weight: bolder; 
+    background-color:#FF00E8;
+    font-weight: bolder;
     border-radius: 5px;
     padding: 4px;
-    color: whitesmoke; 
+    color: whitesmoke;
+    border-radius:22px;
 }
 .follow_btn:hover{
     transform: scale(1.1);
@@ -104,7 +105,7 @@ p {
 
  /*animation for "contributions-so-far"*/
 .animated{
-    animation: tada; 
+    animation: tada;
    --animate--slower:10s;
     animation-iteration-count:infinite;
 }
@@ -441,12 +442,12 @@ body.night {
 ::-webkit-scrollbar {
     width: 12px;
   }
-  
+
   /* Track */
   ::-webkit-scrollbar-track {
     background: black;
   }
-  
+
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #b711bd;
@@ -455,7 +456,7 @@ body.night {
   .night::-webkit-scrollbar-track {
     background: white;
   }
-  
+
 
 
 @media screen and (min-width: 800px) {
